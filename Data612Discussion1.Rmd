@@ -1,0 +1,24 @@
+---
+title: "Data 612"
+author: "Anna Moy"
+date: "2025-06-06"
+output: html_document
+---
+
+
+## Research Discussion Assignment 1
+
+
+### You may also choose one of the three non-personalized recommenders (below) we went over in class and describe the technique and which of the three you prefer to use.
+
+Youtube uses a hybrid recommender system which is a combination of both collaborative filtering and content-based filtering. The system tracks user behaviors such as how long a video is watched, how many times it has been viewed, and even the time of day the content is accessed. These factors help YouTube better understand viewing patterns and tailor recommendations accordingly.
+
+Content-based filtering is evident when users subscribe to channels they enjoy. Once subscribed, they are notified when new videos are released, allowing them to continue engaging with creators they’ve previously liked. YouTube also uses a user's watch history and search keywords to suggest similar videos. This ensures that users are regularly presented with content aligned with their preferences and interests.
+
+Collaborative filtering works by analyzing the behavior of users with similar viewing habits. If users who watch similar content tend to watch or enjoy a certain video, YouTube is likely to recommend that video to others in that group. The system also tracks how long similar users watch a video—longer watch times typically indicate strong interest. Additionally, if similar users give a video a thumbs up, it signals that the content was well-received and may be promoted to others with similar tastes.
+
+This recommendation system delivers a positive user experience. For instance, my children are often engaged with YouTube content and frequently rewatch the same videos, which then continue to show up in their recommended feed. When I search for travel content, YouTube quickly suggests related videos from the same location or theme, showing how effectively it adapts to user interests.
+
+An example where a collective effort to alter the workings of content recommendation has been successful is where uses provide fake five-star rating reviews in Amazon for products or brands which are unfamiliar to users. This could impact users to buy products which has a high review when in reality it is not. 
+
+To prevent abuse, platforms should take steps to validate user reviews. This could include confirming that reviewers have made genuine transactions, monitoring for suspicious spikes in positive ratings, and ensuring reviews are submitted only after product delivery. Additionally, platforms can flag users who only review a single product or exhibit patterns that suggest inauthentic activity. These measures can help maintain the integrity of recommendation systems and protect users from deceptive practices. 
