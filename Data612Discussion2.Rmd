@@ -1,0 +1,24 @@
+---
+title: "Discussion 2"
+author: "Anna Moy"
+date: "2025-06-11"
+output: html_document
+---
+
+
+## Discussion 2
+
+In the video (Music Recommendations at Scale with Spark), Christopher explains different types of recommendation strategies used by companies, including manual curation, manual tagging based on attributes, automated content-based methods, and collaborative filtering. Each of these has its own pros and cons depending on the user's needs and the type of recommendation being made. I found it interesting music companies may want to hire someone and tag each attributes of their music which is time consuming. 
+
+Christopher then goes and explains the two different types of matrix factorization. Explicit matrix factorization uses user-provided ratings to predict missing ratings such as movies.Implicit matrix factorization is inferring what the user will like. Data is represented in binary number where 1 means the user interacted with the item and 0 means they didn’t. The confidence level is weighted by how often the user interacted with the item.
+
+To factorize the matrix, Alternating Least Squares (ALS) is used, which breaks down the user-item matrix into two smaller matrices representing user and item characteristics.
+
+It was the most interesting to find out the three ways the same data can be processed and have significant difference in the processing time. 
+
+Hadoop - Takes the longest because broadcasting and grouping are more manual and involve a lot of data shuffling across machines.
+
+Spark (Full Gridify) - Splits the data into blocks and computes all blocks in parallel, reducing data shuffling and improving speed.
+
+Spark (Half Gridify) - Focuses only on the relevant parts of the data that need processing, which makes it more efficient and faster than full gridify.
+
