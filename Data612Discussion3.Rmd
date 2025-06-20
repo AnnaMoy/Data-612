@@ -1,0 +1,16 @@
+---
+title: "Discussion 3"
+author: "Anna Moy"
+date: "2025-06-18"
+output: html_document
+---
+
+## Discussion 3
+
+A recommender system can reinforce human biases if it is not designed with the user’s intent in mind, as Evan Estola highlights in his video. For example, Orbitz focused more on showcasing how smart the company was rather than prioritizing the quality of hotel recommendations for customers. The mac users were recommended higher hotel prices due to the bias. As Evan mention there were bias in algorithms for screening job applicants and student applicants which could lead to legal impacts. 
+
+I believe recommender systems often reinforce unethical targeting or customer segmentation. In the medical industry, for instance, a recommender system developed to identify patients needing additional care exhibited racial bias, deeming Black patients sicker than white patients without justification. Another example involved an algorithm used to determine how many hours of aid a resident with disabilities would receive each week. The system significantly reduced the allocated hours, adversely impacting the resident’s quality of life. 
+
+However, there are ways to mitigate user bias in data and develop fairer algorithms. Increasing transparency around the data sources and assumptions used in the recommender system helps users understand the underlying methodology. Additionally, auditing these systems regularly can identify and address biases in their recommendations.
+
+Bias can appear in recommender systems but at the same time there are ways to mitigate this from happening. 
