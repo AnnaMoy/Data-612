@@ -1,0 +1,17 @@
+---
+title: "Data612 - Discussion 4"
+author: "Anna Moy"
+date: "2025-06-27"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Discussion 4
+In the article Up Next: A Better Recommendation System, the author describes how clicking on just a few anti-Islamic memes on Pinterest which is created by fake accounts quickly changed her feed from babies and recipes to conspiratorial content. This shows how easily recommender systems can shift a user’s experience with just a few interactions.
+
+To prevent algorithmic discrimination, one strategy is to improve transparency: show users what types of content are being recommended and allow them to filter out content they don’t want to see. The article also mentions adding a “Do Not Amplify” feature for sensitive topics and this wouldn’t censor the content but would stop it from being pushed by the algorithm.
+
+Another way to reduce harm is by tracking how long a user watches or interacts with a certain type of content to make sure it’s something they truly engage with and not just something they clicked on out of by mistake. Additionally, when someone starts viewing conspiracy content, the system could suggest the opposite perspective to avoid pulling them further into extreme or misleading recommendations.
